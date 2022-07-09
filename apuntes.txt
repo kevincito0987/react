@@ -59,4 +59,5 @@ In reactjs we can do it to add a variable in component like so:
  let adjective = "Interesting".
    <p>React is {adjective}</p>
 To create a react app we use the command:
-  npx create-react-app name_app. 
+  npx create-react-app name_app.
+There is a style in css called counter='pointer' and this is be able to show a hand when our cursor is on a button or another interactive component.

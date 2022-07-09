@@ -33,7 +33,7 @@ export default function Games(props) {
                         layout='responsive'
                         display='block'
                     >
-                        <p><><strong>{props.contenido}</strong></p>
+                        <p><strong>{props.contenido}</strong></p>
                     </Box>
                 </Box>
             </Flex>

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Box } from '@chakra-ui/react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Box
+      width='100%'
+      height='100%'
+      margin='8px 0px 8px 0px'
+      display='flex'
+      alignItems= 'center'
+      justifyContent= 'center'
+      >
+      <Box
+      fontSize='3rem'
+      color='aquamarine'
+      >
+        <h1>interactive Calculator.</h1>
+      </Box>
+      </Box>
     </div>
   );
 }

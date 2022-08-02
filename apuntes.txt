@@ -61,3 +61,5 @@ In reactjs we can do it to add a variable in component like so:
 To create a react app we use the command:
   npx create-react-app name_app.
 There is a style in css called counter='pointer' and this is be able to show a hand when our cursor is on a button or another interactive component.
+In Reactjs in props there is something called (props.children) is used to the things of my component. In my component i make an opening tag<etiqueta de apertura> and a closing tag<etiqueta de cierre> and change them with (props.children).
+In Reactjs there is a method called trim() and this allows us to delete unnecessary spaces.

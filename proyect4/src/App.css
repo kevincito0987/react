@@ -1,0 +1,15 @@
+.App-tareas {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  color: aliceblue;
+  background-color: #1b1b32;
+  margin-top: 40px;
+}
